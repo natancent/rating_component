@@ -1,0 +1,148 @@
+*{
+    font-family: "Overpass", sans-serif;
+}
+body{
+    height: 100vh;
+    width: auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+.container{
+    background-color:hsl(215, 16%, 15%);
+    height: 65vh;
+    width:30%;
+    border-radius: 5vmin;
+    padding: 1em;
+    
+
+}
+.star{
+    background-color: hsla(216, 12%, 54%, 0.096);
+    padding: 0.8em;
+    height: 1em;
+    border-radius: 50%;
+    margin-left: 1.5em;
+    margin-top: 1em;
+}
+h2{
+    color: white;
+    font-size: 2rem;
+    height: 1em;
+    margin-left: 1em;
+}
+p{
+    color:hsl(217, 12%, 63%);
+    font-size:1rem;
+    height: 5em;
+   
+    margin-left: 2em;
+}
+form{
+    display: flex;
+    gap:1.3em;
+    margin-left: 2em;
+    
+}
+.circle{
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    background-color: hsla(216, 12%, 54%, 0.11);
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    line-height: 3;
+    cursor: pointer;
+
+}
+.circle:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+input{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: 700;
+    border: none;
+    width: 25em;
+    margin-top: 4em;
+    padding: 1em;
+    border-radius:5vmin;
+    margin-left: 2em;
+    font-family: "Overpass", sans-serif;
+    cursor: pointer;
+    
+}
+input:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+
+} 
+
+/*Thank you section*/
+.tks{
+    background-color:hsl(215, 16%, 15%);
+    height: 65vh;
+    width:30%;
+    border-radius: 5vmin;
+    padding: 1em;
+    display: none;
+    
+}
+.cell{
+    margin-left: 6em;
+    margin-top: 1em;
+    height: 8em;
+}
+.answer{
+    background-color: hsla(216, 12%, 54%, 0.11);
+    color: orange;
+    text-align: center;
+    font-weight: 700;
+    padding: 0.5em;
+    border: none;
+    width: 15em;
+    margin-top: 2em;
+    border-radius:5vmin;
+    margin-left: 4em;
+    font-family: "Overpass", sans-serif;
+    
+}
+.msg{
+    width:20em;
+    text-align: center;
+}
+.tku{
+    margin-left: 3em;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2em;
+}
+
+@media only screen and (max-width: 600px)  {
+    .container,.tks{
+        width: 90%;
+        height: 50vh;
+    }
+  }
+  
+ 
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container,.tks{
+        width: 50%;
+        height: 50vh;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1025px) {
+    .container,.tks{
+        width: 30%;
+    }
+  }
+  
+
+

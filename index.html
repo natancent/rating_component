@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rating element</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="vote" class="container">
+    <img class="star" src="./images/icon-star.svg" alt="A star image logo">
+    <h2>How did we do?</h2>
+    <p>Please let us know how we did with your support request.
+      All feedback is appreciated to help us improve our offering!</p>
+      <form>
+      <div class="circle" id="1">1</div>
+      <div class="circle" id="2">2</div>
+      <div class="circle" id="3">3</div>
+      <div class="circle" id="4">4</div>
+      <div class="circle" id="5">5</div>
+      </form>
+      <input onclick="showResult()" type="button" value="SUBMIT">
+    </section>
+
+    <section id='tks' class="tks">
+      <img  class="cell" src="/images/illustration-thank-you.svg" alt="">
+      <div id="answer" class="answer"></div>
+      <h2 class="tku ">Thank you!</h2>
+      <p class="msg">We appreciate youtaking the time to give a rating.
+        If you ever need more support, don't hesitate to get in touch!
+      </p>
+</section>
+<p>Front-End Mentor Challenge coded by <a href="https://github.com/natancent">Natan Vicente</a> </p>
+<script src="script.js"></script>
+</body>
+</html>
