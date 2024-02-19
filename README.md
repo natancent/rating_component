@@ -36,5 +36,5 @@ Special thanks to Frontend Mentor for providing this challenge and helping devel
 If you have any questions, feedback, or suggestions regarding my solution, feel free to reach out to me:
 
 - Name: Natan Vicente
-- GitHub: [Natan Vicenye](github.com/natancent)
+- GitHub: [Natan Vicente](github.com/natancent)
 Thank you for checking out my solution!
