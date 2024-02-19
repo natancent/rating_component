@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded',function(){
 function showResult(){
     let result = document.getElementById('tks');
     let vote = document.getElementById('vote')
-    result.style.display= 'block';
+    result.style.display= 'flex';
     vote.style.display='none';
 }

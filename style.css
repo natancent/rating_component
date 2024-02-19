@@ -9,14 +9,15 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: hsl(216, 12%, 8%);
+    margin: 0;
 }
 .container{
     background-color:hsl(215, 16%, 15%);
-    height: 65vh;
-    width:30%;
+    /* height: 65vh; */
+    width: min(400px, calc(100% - 1em));
     border-radius: 5vmin;
     padding: 1em;
-    
+    box-sizing: border-box;
 
 }
 .star{
@@ -30,13 +31,11 @@ body{
 h2{
     color: white;
     font-size: 2rem;
-    height: 1em;
     margin-left: 1em;
 }
 p{
     color:hsl(217, 12%, 63%);
     font-size:1rem;
-    height: 5em;
    
     margin-left: 2em;
 }
@@ -44,6 +43,7 @@ form{
     display: flex;
     gap:1.3em;
     margin-left: 2em;
+    flex-wrap: wrap;
     
 }
 .circle{
@@ -65,7 +65,7 @@ input{
     color: white;
     font-weight: 700;
     border: none;
-    width: 25em;
+    width: min(25em, calc(100% - 2em));
     margin-top: 4em;
     padding: 1em;
     border-radius:5vmin;
@@ -83,15 +83,20 @@ input:hover{
 /*Thank you section*/
 .tks{
     background-color:hsl(215, 16%, 15%);
-    height: 65vh;
-    width:30%;
+    /* height: 65vh; */
+    width: min(400px, calc(100% - 1em));
     border-radius: 5vmin;
     padding: 1em;
     display: none;
-    
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.tks h2, .tks p {
+  margin-left: 0;
 }
 .cell{
-    margin-left: 6em;
+    /* margin-left: 6em; */
     margin-top: 1em;
     height: 8em;
 }
@@ -105,44 +110,40 @@ input:hover{
     width: 15em;
     margin-top: 2em;
     border-radius:5vmin;
-    margin-left: 4em;
+    /* margin-left: 4em; */
     font-family: "Overpass", sans-serif;
     
 }
 .msg{
-    width:20em;
+    width: min(20em, calc(100% - 16px));
     text-align: center;
 }
 .tku{
-    margin-left: 3em;
+    /* margin-left: 3em; */
 }
 a{
     text-decoration: none;
     color: white;
-    margin-right: 2em;
 }
-
+.bottom-text {
+    margin-left: 0px;
+    text-align: center;
+}
 @media only screen and (max-width: 600px)  {
-    .container,.tks{
-        width: 90%;
-        height: 50vh;
+    h2 {
+        margin-left: 0;
     }
-  }
-  
- 
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .container,.tks{
-        width: 50%;
-        height: 50vh;
+    p {
+        margin-left: 0;
     }
-  }
-  
-  
-  @media only screen and (min-width: 1025px) {
-    .container,.tks{
-        width: 30%;
+    form {
+        margin-left: 0;
     }
-  }
-  
-
-
+    .star {
+        margin-left: 0;
+    }
+    input {
+        width: min(25em, 100%);
+        margin-left: 0;
+    }
+}
