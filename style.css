@@ -13,20 +13,12 @@ body{
 }
 .container{
     background-color:hsl(215, 16%, 15%);
-<<<<<<< HEAD
     /*height: 65vh;*/
     width:min(400px, calc(100% - 1em));
     border-radius: 5vmin;
     padding: 1em;
     box-sizing: border-box;
     
-=======
-    /* height: 65vh; */
-    width: min(400px, calc(100% - 1em));
-    border-radius: 5vmin;
-    padding: 1em;
-    box-sizing: border-box;
->>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
 
 }
 .star{
@@ -45,10 +37,6 @@ h2{
 p{
     color:hsl(217, 12%, 63%);
     font-size:1rem;
-<<<<<<< HEAD
-=======
-   
->>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
     margin-left: 2em;
 }
 form{
@@ -95,11 +83,7 @@ input:hover{
 /*Thank you section*/
 .tks{
     background-color:hsl(215, 16%, 15%);
-<<<<<<< HEAD
     /*height: 65vh;*/
-=======
-    /* height: 65vh; */
->>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
     width: min(400px, calc(100% - 1em));
     border-radius: 5vmin;
     padding: 1em;
@@ -107,13 +91,7 @@ input:hover{
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-<<<<<<< HEAD
     
-=======
-}
-.tks h2, .tks p {
-  margin-left: 0;
->>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
 }
 .cell{
     /* margin-left: 6em; */
@@ -130,11 +108,7 @@ input:hover{
     width: 15em;
     margin-top: 2em;
     border-radius:5vmin;
-<<<<<<< HEAD
     /*margin-left: 4em;*/
-=======
-    /* margin-left: 4em; */
->>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
     font-family: "Overpass", sans-serif;
     
 }
@@ -145,7 +119,6 @@ input:hover{
     width: min(20em, calc(100% - 16px));
     text-align: center;
 }
-<<<<<<< HEAD
 
 a{
     text-decoration: none;
@@ -154,14 +127,6 @@ a{
 .bottom-text {
     margin-left: 0px;
     text-align: center;
-=======
-.tku{
-    /* margin-left: 3em; */
-}
-a{
-    text-decoration: none;
-    color: white;
->>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
 }
 .bottom-text {
     margin-left: 0px;
@@ -171,7 +136,6 @@ a{
     h2 {
         margin-left: 0;
     }
-<<<<<<< HEAD
     .bottom-text {
         margin-top: 5em;
     }
@@ -214,19 +178,3 @@ a{
   
 
 
-=======
-    p {
-        margin-left: 0;
-    }
-    form {
-        margin-left: 0;
-    }
-    .star {
-        margin-left: 0;
-    }
-    input {
-        width: min(25em, 100%);
-        margin-left: 0;
-    }
-}
->>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
