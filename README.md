@@ -20,7 +20,14 @@ The challenge was to create a rating component that allows users to submit their
 - The design files provided in the /design folder were used as a reference to create the layout and styling - for the rating component. The project aimed to match the design as closely as possible while ensuring responsiveness across different screen sizes.
 
 ## How to View
-You can view the live version of the project by following this link (replace "#"" with the actual link to your deployed project).
+You can view the live version of the project by following this link (https://rating-component-yeed.vercel.app/).
+
+
+
+
+
+
+
 
 ## How to Run Locally
 To run the project locally, follow these steps:
