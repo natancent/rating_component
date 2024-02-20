@@ -13,11 +13,20 @@ body{
 }
 .container{
     background-color:hsl(215, 16%, 15%);
+<<<<<<< HEAD
+    /*height: 65vh;*/
+    width:min(400px, calc(100% - 1em));
+    border-radius: 5vmin;
+    padding: 1em;
+    box-sizing: border-box;
+    
+=======
     /* height: 65vh; */
     width: min(400px, calc(100% - 1em));
     border-radius: 5vmin;
     padding: 1em;
     box-sizing: border-box;
+>>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
 
 }
 .star{
@@ -36,7 +45,10 @@ h2{
 p{
     color:hsl(217, 12%, 63%);
     font-size:1rem;
+<<<<<<< HEAD
+=======
    
+>>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
     margin-left: 2em;
 }
 form{
@@ -83,7 +95,11 @@ input:hover{
 /*Thank you section*/
 .tks{
     background-color:hsl(215, 16%, 15%);
+<<<<<<< HEAD
+    /*height: 65vh;*/
+=======
     /* height: 65vh; */
+>>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
     width: min(400px, calc(100% - 1em));
     border-radius: 5vmin;
     padding: 1em;
@@ -91,9 +107,13 @@ input:hover{
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+<<<<<<< HEAD
+    
+=======
 }
 .tks h2, .tks p {
   margin-left: 0;
+>>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
 }
 .cell{
     /* margin-left: 6em; */
@@ -110,17 +130,23 @@ input:hover{
     width: 15em;
     margin-top: 2em;
     border-radius:5vmin;
+<<<<<<< HEAD
+    /*margin-left: 4em;*/
+=======
     /* margin-left: 4em; */
+>>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
     font-family: "Overpass", sans-serif;
     
 }
+.tks h2, .tks p {
+    margin-left: 0;
+  }
 .msg{
     width: min(20em, calc(100% - 16px));
     text-align: center;
 }
-.tku{
-    /* margin-left: 3em; */
-}
+<<<<<<< HEAD
+
 a{
     text-decoration: none;
     color: white;
@@ -128,8 +154,31 @@ a{
 .bottom-text {
     margin-left: 0px;
     text-align: center;
+=======
+.tku{
+    /* margin-left: 3em; */
+}
+a{
+    text-decoration: none;
+    color: white;
+>>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
+}
+.bottom-text {
+    margin-left: 0px;
+    text-align: center;
 }
 @media only screen and (max-width: 600px)  {
+    h2 {
+        margin-left: 0;
+    }
+<<<<<<< HEAD
+    .bottom-text {
+        margin-top: 5em;
+    }
+  }
+  
+ 
+  @media only screen and (max-width: 600px)  {
     h2 {
         margin-left: 0;
     }
@@ -146,4 +195,38 @@ a{
         width: min(25em, 100%);
         margin-left: 0;
     }
+    .bottom-text {
+        margin-top: 5em;
+    }
+    
+    
 }
+  
+  
+  @media only screen and (min-width: 1025px) {
+    .container,.tks{
+        width: 30%;
+    }
+    .bottom-text {
+        margin-top: 5em;
+    }
+  }
+  
+
+
+=======
+    p {
+        margin-left: 0;
+    }
+    form {
+        margin-left: 0;
+    }
+    .star {
+        margin-left: 0;
+    }
+    input {
+        width: min(25em, 100%);
+        margin-left: 0;
+    }
+}
+>>>>>>> 80e7cc84e318cd2403545ca9e81fd8dbf2d30d9b
