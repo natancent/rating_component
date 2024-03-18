@@ -2,8 +2,10 @@
     font-family: "Overpass", sans-serif;
 }
 body{
-    height: 100vh;
+    min-height: 100vh;
     width: auto;
+    padding: 50px;
+    box-sizing: border-box;
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -13,10 +15,10 @@ body{
 }
 .container{
     background-color:hsl(215, 16%, 15%);
-    /*height: 65vh;*/
-    width:min(400px, calc(100% - 1em));
+    box-sizing: border-box;
+    padding: 20px 20px;
+    max-width: 400px;
     border-radius: 5vmin;
-    padding: 1em;
     box-sizing: border-box;
     
 
@@ -26,24 +28,24 @@ body{
     padding: 0.8em;
     height: 1em;
     border-radius: 50%;
-    margin-left: 1.5em;
-    margin-top: 1em;
+    margin-bottom: 25px;
 }
 h2{
     color: white;
     font-size: 2rem;
-    margin-left: 1em;
+    margin: 0;
+    margin-bottom: 10px;
 }
 p{
     color:hsl(217, 12%, 63%);
     font-size:1rem;
-    margin-left: 2em;
+    margin-bottom: 25px;
 }
 form{
     display: flex;
     gap:1.3em;
-    margin-left: 2em;
-    flex-wrap: wrap;
+    
+    
     
 }
 .circle{
@@ -65,11 +67,10 @@ input{
     color: white;
     font-weight: 700;
     border: none;
-    width: min(25em, calc(100% - 2em));
+    width: 100%;
     margin-top: 4em;
     padding: 1em;
     border-radius:5vmin;
-    margin-left: 2em;
     font-family: "Overpass", sans-serif;
     cursor: pointer;
     
@@ -130,6 +131,7 @@ a{
 }
 .bottom-text {
     margin-left: 0px;
+    margin-top: 5em;
     text-align: center;
 }
 @media only screen and (max-width: 600px)  {

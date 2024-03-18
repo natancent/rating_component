@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
             let answer = document.getElementById('answer');
             answer.innerHTML = (`You selected ${voto} out of 5`);
 
-           
+
             circles.forEach(function (circle) {
                 circle.style.backgroundColor = ''; 
             });
